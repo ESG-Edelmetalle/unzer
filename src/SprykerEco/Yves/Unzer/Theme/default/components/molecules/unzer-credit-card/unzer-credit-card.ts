@@ -14,7 +14,7 @@ interface unzerInterface {
 
 interface cardInterface {
     create: {
-        (inputField: string, {
+        (inputField: string, options: {
             containerId: string,
             onlyIframe: boolean,
         }): void;
